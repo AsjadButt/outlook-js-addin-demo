@@ -6,11 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="TripleBlueAI"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://www.contoso.com/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <IconUrl DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://github.com/AsjadButt/outlook-js-addin-demo</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -154,14 +154,14 @@
     <Resources>
       <!-- <Resource Id="functionFileUrl" DefaultValue="https://yourdomain.com/functions.html"/> -->
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/login.html"/>
-        <bt:Url id="Main.Url" DefaultValue="https://www.contoso.com/main.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/login.html"/>
+        <bt:Url id="Main.Url" DefaultValue="https://github.com/AsjadButt/outlook-js-addin-demo/main.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Contoso Add-in"/>
