@@ -4,7 +4,8 @@
  */
 
 /* global document, Office */
-import { apiURL } from "./config.js";
+// import { apiURL } from "./config.js";
+const apiURL = "http://localhost:3001";
 
 showContentLoader();
 // localStorage.removeItem("userLoggedIn");
