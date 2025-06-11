@@ -13,7 +13,6 @@ Office.onReady((info) => {
   if (info.host === Office.HostType.Outlook) {
     
     setTimeout(()=>{
-        document.querySelector('.ext-h2').textContent = localStorage.getItem("userLoggedIn");
         const isLoggedIn = localStorage.getItem("userLoggedIn");
         if (isLoggedIn == "true") {
             window.location.href = "home.html";
